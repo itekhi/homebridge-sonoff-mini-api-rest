@@ -53,8 +53,8 @@ SonoffAccessory.prototype.getState = function(callback) {
   .set('accept', 'json')
   .end((error, response) => {
     if (!error && response.statusCode == 200) {
-      var json = JSON.parse(response.text).data;
-      var state = JSON.parse(json).switch;
+      var json = response.body;
+      var state = json.data.switch;
 
       if (this.debug)           
           this.log('getState() request returned successfully ('+response.statusCode+'). Body: '+JSON.stringify(json));
