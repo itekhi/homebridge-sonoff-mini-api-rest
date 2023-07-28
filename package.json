@@ -1,13 +1,9 @@
 {
   "name": "homebridge-sonoff-mini-api-rest",
   "version": "1.2.0",
-  "description": "Plugin for Sonoff Mini REST API: https://github.com/myroom/homebridge-sonoff-mini-api-rest",
+  "description": "Plugin for Sonoff Mini",
   "main": "index.js",
-  "author": "Alexandr Usoltsev",
-   "repository": {
-    "type": "git",
-    "url": "git://github.com/myroom/homebridge-sonoff-mini-api-rest.git"
-  },
+  "author": "Paul Woods <itekhi@yandex.ru>",
   "engines": {
     "homebridge": ">=0.2.0",
     "node": ">=4.0.0"
@@ -20,16 +16,12 @@
     "homekit",
     "sonoff"
   ],
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/myroom/homebridge-sonoff-mini-api-rest.git"
+    "url": "git://github.com/itekhi/homebridge-sonoff-mini-api-rest.git"
   },
- "bugs": {
+  "bugs": {
     "url": "https://github.com/myroom/homebridge-sonoff-mini-api-rest/issues"
-  }
+  },
+  "license": "ISC"
 }
-
-
-
-
